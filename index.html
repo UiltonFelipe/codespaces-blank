@@ -1,52 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<!-- reúne metadados, título, links externos e configurações. -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reúne metadados, título, links externos e configurações. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autoria Web</title>
-</head>
-<!-- contém o conteúdo visível da página  -->
-<body>
-
+  </head>
+  <!-- contém o conteúdo visível da página  -->
+  <body>
+    <!-- header: define o cabeçalho. Exibe logo, título, nav...  -->
     <h1>I LOVE JESUS CRIST!</h1>
-     <nav>
-        <ul>
-            <li>
-                <a href="Jesus.html">Jesus</a>
-            </li>
-            <li>
-                <a href="sobre.html">Sobre</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=0174tYEZnnA&list=RD0174tYEZnnA&start_radio=1">Queima de Novo</a>
-            </li>            
-            <li>
-                <a href="#">Github</a>
-            </li>
-        </ul>
+    <!-- main: Delimita o conteúdo principal da página, único por documento, 
+      facilitando navegação por leitores de tela  -->
+    <main>
+      <!-- <section>: seção temática do documento, geralmente com um título próprio -->
+<section>
+  <h2>Seção 1</h2>
+  <!-- 
+          <div>: contêiner genérico em bloco, sem significado semântico próprio, 
+          útil para agrupamento quando nenhum dos elementos semânticos se aplica.
+        -->
+        <div>
+  <img
+      src="assets/imgs/Jesus.jpg"
+      alt="Foto de uma pessoa na neve com frase motivacional "/>
+  </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="Jesus.html">Jesus</a>
+        </li>
+        <li>
+          <a href="sobre.html">Sobre</a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=0174tYEZnnA&list=RD0174tYEZnnA&start_radio=1"
+            >Queima de Novo</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/UiltonFelipe/codespaces-blank">Github</a>
+        </li>
+      </ul>
     </nav>
-    <p>Lorem ipsum <strong>dolor</strong> sit amet consectetur, adipisicing elit. Doloremque saepe rem cum impedit! Id voluptatibus harum
-        quisquam veritatis hic dicta, laudantium debitis facilis? Praesentium, veritatis ad harum delectus consectetur
-        commodi.
+    </section>
+    </main>
+    
+   <main>
+    <section>
+      <h2>Seção 2</h2>
+      <img src="assets/imgs/Cristo.jpg" alt="Imagem de uma pessoa na neve com frase motivacional acima">
+       
+      <!-- 
+          <article>: bloco de conteúdo independente e reutilizável 
+          (post de blog, notícia, card de produto, comentário), 
+          que faz sentido fora do contexto imediato. 
+        -->
+        <article>
+      <p>
+      Lorem ipsum <strong>dolor</strong> sit amet consectetur, adipisicing elit.
+      Doloremque saepe rem cum impedit! Id voluptatibus harum quisquam veritatis
+      hic dicta, laudantium debitis facilis? Praesentium, veritatis ad harum
+      delectus consectetur commodi.
     </p>
+
     <br />
-    <p>Lorem ipsum <em>dolor</em> sit, amet consectetur adipisicing elit. Quidem quis minima numquam blanditiis ab consectetur
-        hic corrupti ad, tempore illo eum quam culpa nesciunt magni sunt libero neque obcaecati iusto!
+
+    <p>
+      Lorem ipsum <em>dolor</em> sit, amet consectetur adipisicing elit. Quidem
+      quis minima numquam blanditiis ab consectetur hic corrupti ad, tempore
+      illo eum quam culpa nesciunt magni sunt libero neque obcaecati iusto!
     </p>
-    <br>
-    <p>Dicas para alcançar os seus objetivos:</p>
-    <ul>
-        <li>Foco</li>
-        <li>Força</li>
-        <li>Fé</li>
+    </section>
+  </main> 
+    <br />
+   <main>
+    <section>
+      <h2>Seção 3</h2>
+      <img src="assets/imgs/Deus.jpg" alt="Imagem de uma pessoa na neve com frase motivacional">
+      <p>Dicas para alcançar os seus objetivos:</p>
+       <ul>
+      <li>Foco</li>
+      <li>Força</li>
+      <li>Fé</li>
     </ul>
     <p>O que fazer no lab?</p>
     <ol>
-        <li>Ligar o PC</li>
-        <li>Iniciar a VM no Github Codespaces</li>
-        <li>Prestar atenção no professor</li>
+      <li>Ligar o PC</li>
+      <li>Iniciar a VM no Github Codespaces</li>
+      <li>Prestar atenção no professor</li>
     </ol>
+  </main>
+    </section>
+  </main>
+   
 
+  <!-- footer: rodapé da página ou de uma seção, com informações de autoria, 
+      direitos, links secundários, contatos, etc.  -->
+  <footer>
+<h3>IFRN - Campus Macau</h3>
+  <p>Desenvolvido por Uilton Felipe</p>
+  </footer>
   </body>
 </html>
