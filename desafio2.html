@@ -1,0 +1,104 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 2</title>
+  </head>
+
+
+  <h2>Formulário de inscrição para Bolsista</h2>
+
+  <br>
+  <form action="#">
+        <label for="nome">Nome completo:</label><br />
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." /><br />
+
+        <label for="numero">Matricula:</label><br />
+        <input type="nunber" id="numero" name="numero" placeholder="Digite sua matricula..." /><br />
+
+        <label for="senha">Senha:</label><br />
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha..."/><br />
+
+        <label for="linguagens">Curso:</label><br />
+        <select name="linguagens" id="linguagens">
+          <option value="informática">Informática</option>
+          <option value="rec. pesqueiros">Rec. Pesqueiros</option>
+          <option value="quimica">Química</option>
+          <option value="nenhuma">Nenhuma</option>
+        </select>
+
+        <h2>Turno:</h2>
+
+        <input type="radio" id="sim" name="Manhã" value="Sim" />
+        <label for="sim">Manhã</label>
+        <input type="radio" id="nao" name="Tarde" value="Não" />
+        <label for="nao">Tarde</label>
+        <br />
+
+        <h2>Áreas de interesse:</h2>
+
+        <input type="checkbox" id="programacao_web" name="programacao_web" value="Programação_Web" />
+        <label for="programacao_web">Programação Web</label>
+        <input type="checkbox" id="design" name="design" value="Design" />
+        <label for="design">Design</label>
+        <input type="checkbox" id="banco_de_dados" name="banco_de_dados" value="Banco_de_dados" />
+        <label for="banco_de_dados">Banco de dados</label>
+        <input type="checkbox" id="robotica" name="robotica" value="Robótica" />
+        <label for="robotica">Robótica</label>
+        <br>
+
+        <br>
+        <label for="observacoes">Observações:</label><br />
+        <textarea name="observacoes" id="observacoes" rows="5"></textarea><br />
+        <br />
+
+        <br />
+        <button type="submit" onclick="alert('ME CLICOU!')">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+  <h2>Participantes já Inscritos:</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Curso</th>
+        <th>Turno</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana Clara</td>
+        <td>Informática</td>
+        <td>Manhã</td>
+        <td>Confirmado</td>
+      </tr>
+      <tr>
+        <td>Lucas Henrique</td>
+        <td>Rec. Pesqueiros</td>
+        <td>Tarde</td>
+        <td>Pendente</td>
+      </tr>
+      <tr>
+        <td>Mariana Souza</td>
+        <td>Química</td>
+        <td>Manhã</td>
+        <td>Confirmado</td>
+      </tr>
+      <tr>
+        <td>Pedro Lima</td>
+        <td>Informática</td>
+        <td>Tarde</td>
+        <td>Em análise</td>
+      </tr>
+      <tr>
+        <td>Juliana Alves</td>
+        <td>Química</td>
+        <td>Manhã</td>
+        <td>Confirmado</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
