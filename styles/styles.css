@@ -9,7 +9,7 @@
 }   
 
 body {
-    font-family: "Lexend Deca", sans-serif;if;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 /* Seleção de elemento */
@@ -18,7 +18,7 @@ h2 {
     color: #329ced;
 }
 
-/*Seleção de id */
+/*Seleção de id *                                                       /
 #tabela {
     text-align: center;
     background-color: #D4E9FC;
@@ -34,3 +34,46 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     color: #329ced
  }
+
+ img {
+    height: 280px;
+    border-radius: 5px 10px 30px;
+ }
+
+ .avatar {
+    border-radius: 50%;
+ }
+
+ #nav-sections ul {
+    list-style-type: none;
+ }
+
+ #nav-sections li {
+   display: inline-block;
+   margin-top: 15px;
+   +-
+ }
+
+ a {
+   text-decoration: none;
+   font-weight: bold;
+   color: var(--Blue-Bell);
+   background-color: var(--Pale-Sky);
+   border-radius: 5px;
+ }
+
+ a:hover {
+   color: var(--Charcoal-Blue);
+   box-shadow: 0 0 10px var(--Pale-Sky);
+ }
+
+ ul {
+    color: rgb(123, 242, 247);
+    box-shadow: 0 0 10px;
+    display: inline-block
+  }
+}
+
+font-maior {
+
+}

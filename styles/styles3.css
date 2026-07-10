@@ -1,0 +1,58 @@
+/* Fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #0056b3;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Classe */
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ID */
+#destaque {
+    background-color: lightyellow;
+    border: 2px solid orange;
+}
