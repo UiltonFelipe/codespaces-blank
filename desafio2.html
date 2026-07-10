@@ -1,25 +1,35 @@
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio 2</title>
+    <title>Formulário de inscrição para Bolsista</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- <style>
+
+      
+      body {
+        font-family:Arial, Helvetica, sans-serif;
+        /* font-family: 'Times New Roman', Times, serif; */
+        /* font-family: 'Courier New', Courier, monospace; */
+      }
+    </style> -->
   </head>
+  <body
 
-
-  <h2>Formulário de inscrição para Bolsista</h2>
+  <h2 style="color:rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class="negrito"><h2>Formulário de inscrição para Bolsista</h2>
 
   <br>
   <form action="#">
-        <label for="nome">Nome completo:</label><br />
+        <label for="nome" class="negrito">Nome completo:</label><br />
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." /><br />
 
-        <label for="numero">Matricula:</label><br />
+        <label for="numero" class="negrito">Matricula:</label><br />
         <input type="nunber" id="numero" name="numero" placeholder="Digite sua matricula..." /><br />
 
-        <label for="senha">Senha:</label><br />
+        <label for="senha" class="negrito">Senha:</label><br />
         <input type="password" name="senha" id="senha" placeholder="Digite sua senha..."/><br />
 
-        <label for="linguagens">Curso:</label><br />
+        <label for="linguagens" class="negrito">Curso:</label><br />
         <select name="linguagens" id="linguagens">
           <option value="informática">Informática</option>
           <option value="rec. pesqueiros">Rec. Pesqueiros</option>
@@ -27,7 +37,7 @@
           <option value="nenhuma">Nenhuma</option>
         </select>
 
-        <h2>Turno:</h2>
+        <p class="courier">Turno:</p>
 
         <input type="radio" id="sim" name="Manhã" value="Sim" />
         <label for="sim">Manhã</label>
@@ -35,7 +45,7 @@
         <label for="nao">Tarde</label>
         <br />
 
-        <h2>Áreas de interesse:</h2>
+        <p class="courier">Áreas de interesse:</p>
 
         <input type="checkbox" id="programacao_web" name="programacao_web" value="Programação_Web" />
         <label for="programacao_web">Programação Web</label>
@@ -59,7 +69,7 @@
 
     <section>
   <h2>Participantes já Inscritos:</h2>
-  <table border="1">
+  <table border="1" id="tabela">
     <thead>
       <tr>
         <th>Nome</th>
