@@ -8,12 +8,22 @@
 --Blue-Bell: #329ced;
 }   
 
+/* CSS Reset */
+* {
+   margin: 0; /*Espaçamento externo*/
+   padding: 0; /* Espaçamento interno*/
+   box-sizing: border-box;
+}
+
 body {
     font-family: "Lexend Deca", sans-serif;
+    padding: 50px;
 }
 
 /* Seleção de elemento */
-h2 {
+h1,
+h2,
+h3 {
     font-family:'Courier New', Courier, monospace;
     color: #329ced;
 }
@@ -51,7 +61,6 @@ h2 {
  #nav-sections li {
    display: inline-block;
    margin-top: 15px;
-   +-
  }
 
  a {
@@ -60,12 +69,31 @@ h2 {
    color: var(--Blue-Bell);
    background-color: var(--Pale-Sky);
    border-radius: 5px;
+   /* Espaçamento interno */
+   padding: 5px 15px;
  }
 
  a:hover {
    color: var(--Charcoal-Blue);
    box-shadow: 0 0 10px var(--Pale-Sky);
  }
+
+ #nav-links {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Charcoal-Blue);
+    background-color: var(--Pale-Sky);
+    border-radius: 5px;
+  }
 
  ul {
     color: rgb(123, 242, 247);
@@ -75,5 +103,17 @@ h2 {
 }
 
 font-maior {
+font-size: 50px;
+background-color: var(--Pale-Sky);
+padding-left: 20px;
+border-width: 10px;
+border-style: 10px;
+border-color: #449586;
+}
 
+.teste-espacamento {
+   background-color:var(--Blue-Bell);
+   padding: 20px 40px;
+   margin-bottom: 100px;
+   border-bottom: 10px solid black;
 }
